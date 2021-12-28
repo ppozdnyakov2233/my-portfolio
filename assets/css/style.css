@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: white;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+header {
+    padding: 10px 15px;
+    background-color: #ffffff;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 9999;
+  }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: rgb(0, 0, 0, .9);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  header a {
+      color: rgb(0, 0, 0, .9);
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  header nav {
+      margin: 7px 0;
+      display: inline-block;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+      margin: 10px 15px;
+      font-weight: lighter;
+      font-size: 1.55vw;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  header nav ul li a:hover {
+    background: white;
+    color: #001999;
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
+  section {
+      padding: 0;
+  }
+
+  .subtitle h1  {
+      font-size: 50px;
+      color: rgb(0, 25, 153, .9);
+      display: inline;
+      margin: 0;
+      position: relative;
+      top: 400px; left: -1350px;
+      text-shadow: 0 0 10px rgb(255, 255, 255, .9);
+  } 
+
+  .subtitle h2 {
+    font-size: 40px;
+    color: rgb(0, 25, 153, .9);
+    display: inline;
+    margin: 0;
+    position: relative;
+    top: 400px; left: -200px;
+    text-shadow: 0 0 10px rgb(255, 255, 255, .9);
+  }
+
+  .hero {
+      background-image: url("https://i.imgur.com/EG16KbH.jpg");
+      height: 700px;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: flex-start;
+  }
+
+  .hero img {
+      border-radius: 20px;
+      position: relative;
+      top: 50px; left: 100px;
+      box-shadow: 0 0 0 10px white;
+  }
+
+  
+
+  .intro {
+      width: 100%;
+      background-color: white;
+  }
+
+
+   .intro h2 {
+      color: black;
+      text-shadow: 0 0 10px rgb(255, 255, 255, .9);
+      font-size: 50px;
+      display: inline-block;
+      text-align: center;
+      margin-top: 100px;
+  }
+
+  .intro pre {
+    color: black;
+    text-shadow: 0 0 25px rgb(0, 0, 0, .9);
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .flex-row {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .space2 {
+    margin-top: 500px;
+  }
+
+  .projects {
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .projects h2 {
+    color: white;
+    text-shadow: 0 0 10px rgb(255, 255, 255, .9);
+    font-size: 50px;
+    margin-top: 100px;
+    position: relative;
+    top: 0; left: 800px;
+  }
+
+  .image1 {
+    position: relative;
+    top: 100px; left: 425px;
+  }
+
+  .image1 h3 {
+    text-shadow: 0 0 10px rgb(0, 0, 0, .9);
+    position: relative;
+    top: -90px; left: 5px;
+  }
+
+  .image1 p {
+    text-shadow: 0 0 10px rgb(0, 0, 0, .9);
+    position: relative;
+    top: -90px; left: 5px;
+  }
+
+  .image2 {
+      position: relative;
+      top: 87px; left: 425px;
+  }
+
+  .image2 h3 {
+      color: white;
+      text-shadow: 0 0 10px rgb(255, 255, 255, .9);
+      position: relative;
+      top: -70px; left: 5px;
+  }
+
+  .image2 p {
+      color: white;
+      text-shadow: 0 0 10px rgb(255, 255, 255, .9);
+      position: relative;
+      top: -70px; left: 5px;
+  }
+
+  .image3 {
+      position: relative;
+      top: 87px; left: 425px;
+  }
+
+  .image3 h3 {
+      color: white;
+      text-shadow: 0 0 10px rgb(255, 255, 255, .9); 
+      position: relative;
+      top: -70px; left: 5px;
+  }
+
+  .image3 p {
+      color: white;
+      text-shadow: 0 0 10px rgb(255, 255, 255, .9);
+      position: relative;
+      top: -70px; left: 5px;
+  }
+
+  .image4 {
+    position: relative;
+    top: -400px; left: 875px;
+  }
+
+  .image4 h3 {
+      color: black;
+      text-shadow: 0 0 10px rgb(0, 0, 0, .9);
+      position: relative;
+      top: -70px; left: 5px;
+  }
+
+  .image4 p {
+    color: black;
+    text-shadow: 0 0 10px rgb(0, 0, 0, .9);
+    position: relative;
+    top: -70px; left: 5px;
+  }
+
+  .image5 {
+    position: relative;
+    top: -400px; left: 875px;
+  }
+
+  .image5 h3 {
+    color: black;
+    text-shadow: 0 0 10px rgb(0, 0, 0, .9);
+    position: relative;
+    top: -70px; left: 5px;
+  }
+
+  .image5 p {
+    color: black;
+    text-shadow: 0 0 10px rgb(0, 0, 0, .9);
+    position: relative;
+    top: -70px; left: 5px;
+  }
+
+  
+
+  .contact-me {
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+      background-color: red;
+      padding-top: 100px;
+      padding-bottom: 200px;
+  }
+
+  .contact-me h2 {
+    color: white;
+    text-shadow: 0 0 10px rgb(255, 255, 255, .9);
+    font-size: 50px;
+    position: relative;
+    top: 100px; left: 800px;
+
+  }
+
+  .email {
+    position: relative;
+    top: 200px; left: 550px;
+    z-index: 9999;
+  }
+
+  .github {
+    position: relative;
+    top: 50px; left: 750px;
+    z-index: 9999;
+  }
+
+  .facebook {
+    position: relative;
+    top: -100px; left: 950px;
+    z-index: 9999;
+  }
+
+  .instagram {
+    position: relative;
+    top: -240px; left: 1150px;
+    z-index: 9999;
+  }
